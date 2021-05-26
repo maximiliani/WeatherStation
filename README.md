@@ -1,5 +1,5 @@
-# Weather_Station
-This is the repo for my selfmade Weatherstation based on the ESP32 board. This repo is forked from the ESPFirmware, which was published by myself on the PrivateHomeIoT account.
+# WeatherStation
+This is the repo for my selfmade WeatherStation based on the ESP32 board. This repo is forked from the ESPFirmware, which was published by myself on the PrivateHomeIoT account.
 
 ## Sensors
 - DHT11
