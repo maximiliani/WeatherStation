@@ -48,7 +48,7 @@ void callback(char* topic, uint8_t* payload, unsigned int length) {
   }
   String decrypted = decryptToChar(msg, iv, length-16);
   Serial.println((String)"DECRYPTED: " + decrypted);
-  if(strcmp(topic, (char*)("home/switch/cmd/" + randomCode).c_str()) == 0){
+  if(strcmp(topic, (char*)("home/sensor/cmd/" + randomCode).c_str()) == 0){
     // char* encrypted = encryptFromChar((char*)decrypted.c_str(),decrypted.length());
     // client.publish((char*)("home/status/" + randomCode).c_str(), encrypted);
     actPort((char*)decrypted.c_str(), decrypted.length());

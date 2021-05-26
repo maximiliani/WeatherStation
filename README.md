@@ -15,3 +15,5 @@ This is the repo for my selfmade Weatherstation based on the ESP32 board. This r
 - Soil Moisture Sensor #1 --> 35
 - Soil Moisture Sensor #2 --> 33
 
+The other ports can be used as outputs or binary inputs. For more information please have a look at the ESPFirmware and PrivateHome repos published by PrivateHomeIoT.
+

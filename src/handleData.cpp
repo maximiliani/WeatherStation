@@ -25,10 +25,10 @@ JsonObject parseJSON(char* rawJson){
 void serialSetup(){
     Serial.begin(9600);
     Serial.flush();
-    Serial.println("PrivateHome-ESPFirmware");
+    Serial.println("PrivateHome-WeatherStation");
     Serial.println();
-    Serial.println("Welcome to the ESPFirmware. This console is thought for experts and the automatic configuration by the server.");
-    Serial.println("If you want to get further information, have a look at our GitHub-Repo and Wiki. https://github.com/PrivateHomeIoT/ESPFirmware");
+    Serial.println("Welcome to the WeatherStation. This console is thought for experts and the automatic configuration by the server.");
+    Serial.println("If you want to get further information, have a look at our GitHub-Repo and Wiki. https://github.com/maximiliani");
     Serial.println();
 }
 
