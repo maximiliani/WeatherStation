@@ -1,6 +1,6 @@
-#include <ESP8266WiFi.h>
+#include <WiFi.h>
+#include <ESPmDNS.h>
 #include <WiFiClient.h>
-#include <ESP8266mDNS.h>
 #include <Arduino.h>
 #include "handleWifi.h"
 #include "handleData.h"
@@ -63,8 +63,8 @@ void wifiLoop(){
             } else if (s == WL_NO_SSID_AVAIL){
                 WiFi.disconnect();
             }
-        } if (s == WL_CONNECTED) {
-            MDNS.update();
+        // } if (s == WL_CONNECTED) {
+        //     MDNS.update();
         }
     }
 }

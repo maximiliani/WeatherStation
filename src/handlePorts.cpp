@@ -3,6 +3,7 @@
 #include "handleWifi.h"
 #include "handleData.h"
 #include "handleEncryption.h"
+#include "Arduino.h"
 
 uint8_t outputs[64];
 uint8_t inputs[64];
@@ -21,7 +22,7 @@ void actPort(char* msg, uint length){
     if(isOutput(port)){
         if(value == (uint16_t)0) digitalWrite(port, LOW);
         else if(value == (uint16_t)1023) digitalWrite(port, HIGH);
-        else analogWrite(port, value);
+        //else analogWrite(port, value);
         Serial.println((String)"Set value of Port " + (String)port + (String)" to " + (String)value);
     }
 }  
@@ -30,7 +31,7 @@ void actPort(uint8_t port, uint16_t value){
     if(isOutput(port)){
         if(value == (uint16_t)0) digitalWrite(port, LOW);
         else if(value == (uint16_t)1023) digitalWrite(port, HIGH);
-        else analogWrite(port, value);
+        //else analogWrite(port, value);
         Serial.println((String)"Set value of Port " + (String)port + (String)" to " + (String)value);
     }
 }  

@@ -1,5 +1,4 @@
 #include "handleEncryption.h" 
-#include "ESP8266TrueRandom.h"
 #include <Crypto.h>
 #include <CryptoLegacy.h>
 #include <AES.h>

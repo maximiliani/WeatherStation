@@ -1,8 +1,9 @@
 #ifndef handleWifi_h
 #define handleWifi_h
 
+#include <WiFi.h>
+#include <ESPmDNS.h>
 #include <WiFiClient.h>
-#include <ESP8266mDNS.h>
 
 extern char ssid[33];
 extern char password[65];
