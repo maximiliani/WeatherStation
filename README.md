@@ -9,7 +9,7 @@ This is the repo for my selfmade WeatherStation based on the ESP32 board. This r
 - Soil Moisture Sensor (capacative, with electronics, analog)
 
 ## Pinout
-- DHT11 --> 34
+- DHT11 --> 25
 - BMP280/BME280 --> SDA: 21, SCL: 22
 - Rain Sensor --> 32
 - Soil Moisture Sensor #1 --> 35
