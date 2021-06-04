@@ -16,5 +16,5 @@ This is the repo for my selfmade WeatherStation based on the ESP32 board. This r
 |BMP280/BME280|SDA: 21, SCL: 22|14|
 |Rain|2|4|
 |Soil #0|5|17|
-|Soil #1|18|19|
+|Soil #1|19|18|
 
