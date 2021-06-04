@@ -4,6 +4,7 @@
 #define rain 32
 #define soil0 35
 #define soil1 33
+#define bat 27
 
 String getSoil0Moisture(){
     int soilMoistureValue = analogRead(35);
