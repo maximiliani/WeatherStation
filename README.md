@@ -12,10 +12,9 @@ This is the repo for my selfmade WeatherStation based on the ESP32 board. This r
 ## Pinout
 | Sensor | Datapins | 3V | 
 |---------|----------|----------|
-|DHT11|25|13|
-|BMP280/BME280|SDA: 21, SCL: 22|15|
-|Rain|32||
-|Soil #0|35||
-|Soil #1|33||
-|Battery|27||
+|DHT11|16|15|
+|BMP280/BME280|SDA: 21, SCL: 22|14|
+|Rain|2|4|
+|Soil #0|5|17|
+|Soil #1|18|19|
 
