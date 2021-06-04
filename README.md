@@ -10,7 +10,8 @@ This is the repo for my selfmade WeatherStation based on the ESP32 board. This r
 - Battery voltage (analog)
 
 ## Pinout
-| Sensor| Datapins| 3V| 
+| Sensor | Datapins | 3V | 
+|---------|----------|----------|
 |DHT11|25||
 |BMP280/BME280|SDA: 21, SCL: 22|15|
 |Rain|32||
